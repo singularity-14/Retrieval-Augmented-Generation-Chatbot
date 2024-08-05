@@ -63,7 +63,7 @@ def text_chunking_uploading(pdf_text):
     else:
         None
 
-# Loading the FAISS Index File 
+# Loading the Vector Database
 vector_db = FAISS.load_local("vector_store_of_recetly_uploaded_pdfs", HuggingFaceBgeEmbeddings(), allow_dangerous_deserialization=True)
 
 

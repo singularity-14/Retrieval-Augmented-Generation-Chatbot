@@ -7,7 +7,7 @@ st.title("RAG Chatbot")
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-# Sidebar for PDF upload
+# Sidebar for Uploading the PDF Files
 uploaded_pdfs = st.sidebar.file_uploader("Upload PDF files", type=["pdf"], accept_multiple_files=True)
 button = st.sidebar.button("Submit")
 

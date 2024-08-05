@@ -76,7 +76,7 @@ llm = ChatGoogleGenerativeAI(
     max_retries=2,
 )
 
-
+# Prompt Template
 template = """
 You are a good chatbot developed by XYZ company.
 

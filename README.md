@@ -1,4 +1,4 @@
-# RAG Chatbot with PDF Processing
+# Retrieval Augmented Generation (RAG) Chatbot with PDF Processing
 
 This project is a Retrieval-Augmented Generation (RAG) chatbot application using Streamlit that processes PDF files, extracts and chunks text, uploads it to a vector database, and utilizes a language model to answer questions based on the uploaded pdf content.
 
